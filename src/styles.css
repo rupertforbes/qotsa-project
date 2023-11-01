@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/images/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 60px 0;
+}
+
+header h1 {
+  font-family: "MedievalSharp", cursive;
+  margin-top: 210px;
+  font-size: 50px;
+}
+
+header p {
+  margin-top: 50px;
+}
+
+header button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+  border-radius: 0;
+  border: none;
+  font-family: "MedievalSharp", cursive;
+  font-size: 20px;
+  color: white;
+  background-color: #00bbda;
+  box-shadow: 2px 2px 2px white;
+}
+
+header button:hover {
+  color: #00bbda;
+  background-color: white;
+  box-shadow: 2px 2px 2px #00bbda;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  header h1 {
+    margin-top: 0px;
+    margin-bottom: 80px;
+    font-size: 32px;
+  }
+  header button {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
