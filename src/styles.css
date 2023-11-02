@@ -1,3 +1,8 @@
+/*
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Poppins', sans-serif;
+*/
+
 body {
   background-color: black;
 }
@@ -28,6 +33,7 @@ header h1 {
 
 header p {
   margin-top: 50px;
+  font-family: "MedievalSharp", cursive;
 }
 
 header button {
