@@ -67,3 +67,30 @@ header button:hover {
     font-size: 15px;
   }
 }
+
+img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: #0d0f13;
+  padding: 50px;
+}
+
+.description-img {
+  padding: 20px;
+}
+
+.description-text {
+  padding: 20px;
+}
+
+.description p {
+  color: #b5b5b5;
+}
