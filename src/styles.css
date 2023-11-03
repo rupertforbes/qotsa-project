@@ -168,6 +168,24 @@ a {
   cursor: pointer;
 }
 
+.songs {
+  background-color: #9e002a;
+}
+
+.songs-title {
+  margin: 0;
+  padding: 100px;
+}
+
+.songs-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.song {
+  margin: 0 auto;
+}
+
 @media (max-width: 800px) {
   header h1 {
     margin-top: 0px;
@@ -202,14 +220,29 @@ a {
   .card {
     max-width: 300px;
   }
+
+  .songs-grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 650px) {
   .cards-section {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 30px;
   }
   .description {
     padding: 30px;
+  }
+
+  main h2 {
+    font-size: 25px;
+  }
+
+  .songs-title {
+    padding: 30px;
+  }
+
+  .songs-grid-container {
+    grid-template-columns: 1fr;
   }
 }
